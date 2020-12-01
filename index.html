@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Chat/Chatbot</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="chatbot" id="chatbot">
+
+        <!-- Header -->
+
+        <div class="info_chatbot">
+            <input type="button" id="closeChatbot" value="X">
+            <span class="info_titre">Chatbot Appetee</span>
+        </div>
+
+        <!-- Liste des messages -->
+
+        <div class="liste_messages" id="listeMessages">
+            <div class="message bot_message">
+                <img src="img/robot_redim.png" alt="Logo robot">
+                <p>Bonjour ! Besoin d'un renseignement à propos d'appetee ?</p>
+            </div>
+        </div>
+        <div class="separateur"></div>
+
+        <!-- Boutons Réponses -->
+
+        <div class="zone_reponse">
+            <div class="flexbox" id="flexbox">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="flexbox_ouvrir_chatbot" id="openChatbotFlexbox">
+        <input type="button" class="ouvrir_chatbot" id="openChatbot" value="Ouvrir le chatbot">
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
