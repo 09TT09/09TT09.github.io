@@ -1,7 +1,7 @@
 // Tableau de tous les boutons
 
 const buttonValue = [
-  ['Je veux en apprendre d\'avantage sur Appetee.','J\'ai une question.','Je regarde juste.','Présentez-moi l\'équipe.'],
+  ['Je veux en apprendre davantage sur Appetee.','J\'ai une question.','Je regarde juste.','Présentez-moi l\'équipe.'],
   ['Histoire d\'Appetee','Valeurs d\'Appetee','Pour qui est faite l\'application ?'],
   ['Où peut-on télécharger l\'appli ?', 'Qu\'est-ce que Appetee ?', 'Quand la société à t\'elle été créée ?'],
   ['Thème 1', 'Thème 2'],
