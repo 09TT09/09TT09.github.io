@@ -1,3 +1,5 @@
+// Tableau de tous les boutons
+
 const buttonValue = [
   ['Je veux en apprendre d\'avantage sur Appetee.','J\'ai une question.','Je regarde juste.','Présentez-moi l\'équipe.'],
   ['Histoire d\'Appetee','Valeurs d\'Appetee','Pour qui est faite l\'application ?'],
@@ -6,10 +8,12 @@ const buttonValue = [
   ['Qui est Monsieur ... ?', 'Qui est Madame ... ?']
 ];
 
+// Tableau des réponses du bot
+
 const botResponse = [
   ['Que voulez-vous savoir sur Appetee ?','Quelle est votre question ?','Nous vous recommandons ces thèmes :<br>- Thème 1<br>- Thème 2','Voici les membres de l\'équipe:<br>- nom test 1<br>- nom test 2'],
-  ['Appetee est à la base un projet étudiant...','Les valeurs que nous défendons sont ...','L\'application est destiné aux étudiants ainsi qu\'aux familles...'], 
-  ['Voici le lien de téléchargement de l\'application <a>Ici</a>...', 'Appetee est...', 'La société à été créée en...'],
+  ['Appetee est à la base un projet étudiant...','Les valeurs que nous défendons sont ...','L\'application est destinée aux étudiants ainsi qu\'aux familles...'], 
+  ['Voici le lien de téléchargement de l\'application <a>Ici</a>...', 'Appetee est...', 'La société a été créée en...'],
   ['Le thème 1 est...', 'Le thème 2 est...'],
   ['Monsieur ... est le fondateur de la marque.', 'Madame ... est la co-fondatrice.']
 ];
