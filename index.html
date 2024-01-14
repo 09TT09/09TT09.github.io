@@ -13,14 +13,14 @@
     <!-- Section 1 -->
     <section class="index_section1" id="section1">
         <nav class="index_nav">
-            <img src="./assets/images/wizart-it-img-v2.png" class="index_wizarditnav" alt="Wizard-it">
+            <img src="./assets/images/wizart-it-img-v2.png" class="index_wizarditnav" alt="Next Office Generator">
             <a href="#section1">Home</a>
             <a href="#section2">NoG</a>
             <a href="#section3">Back-office</a>
             <a href="#section4">Structure</a>
             <a href="#section5">Discord</a>
         </nav>
-        <img src="./assets/images/wizart-it-img-v2.png" class="index_wizardit" alt="Wizard-it">
+        <img src="./assets/images/wizart-it-img-v2.png" class="index_wizardit" alt="Next Office Generator">
         <h1>Next Office Generator</h1>
         <div class="index_intro">
             <p>NextJS developers' go-to tool for seamlessly structuring back-offices<br> through intuitive command-line entity schema configuration.</p>
@@ -28,6 +28,9 @@
         <div class="index_npm">
             <!--<p>npm i wizard-project</p>-->
             <p>npm i next-office-generator</p>
+            <div>
+                <button class="index_copyButton" onclick="CopyTextLib()"><img src="./assets/images/copy-to-clipboard.png" alt="Copy to clipboard"/></button>
+            </div>
         </div>
         <div class="index_documentation">
             <button class="index_buttonAnimColor" onClick="document.getElementById('section2').scrollIntoView();">What is NoG ?</button>
@@ -35,6 +38,9 @@
         </div>
         <a style="margin-top:20px;" href="https://github.com/timoogo/wizard-v4" target="_blank"><b class="coloryellow">See this project on Github</b></a>
         <a style="margin-top:10px;margin-bottom:20px;" href="https://discord.gg/8Rn9CZAa" target="_blank"><b class="coloryellow">Join our Discord</b></a>
+        <div class="index_copyToClipboardMessage">
+            <p>Text copied to clipboard</p>
+        </div>
     </section>
 
     <!-- Section 2 -->
@@ -42,7 +48,7 @@
         <h2 class="index_section2_h2">What is Next Office Generator (NoG) ?</h2>
         <div class="index_containerInfo1"> 
             <div class="index_containerInfo1subDiv">
-                <img src="./assets/images/entity-overview.png" class="index_cliwizard" alt="Wizard-it">
+                <img src="./assets/images/entity-overview.png" class="index_cliwizard" alt="Entity overview">
             </div>
             <div class="index_containerInfo1subDiv">
                 <p>     
@@ -71,7 +77,7 @@
                 </p>
             </div>
             <div class="index_containerInfo2subDiv">
-                <img src="./assets/images/panel-overview.png" class="index_backoffice" alt="Wizard-it">
+                <img src="./assets/images/panel-overview.png" class="index_backoffice" alt="Panel overview">
             </div>
         </div>
         <button style="margin-bottom: 20px;" class="index_buttonAnimColor" onClick="document.getElementById('section4').scrollIntoView();">Next</button>
@@ -82,7 +88,7 @@
         <h2 class="index_section2_h2">Bridging Structure and Interactivity in NextJS</h2>
         <div class="index_containerInfo1"> 
             <div class="index_containerInfo1subDiv">
-                <img src="./assets/images/code-example.png" class="index_cliwizard" alt="Wizard-it">
+                <img src="./assets/images/code-example.png" class="index_cliwizard" alt="Example of code">
             </div>
             <div class="index_containerInfo1subDiv">
                 <p>
@@ -110,11 +116,12 @@
                 </p>
             </div>
             <div class="index_containerInfo2subDiv">
-                <img src="./assets/images/join-us.png" class="index_backoffice" alt="Wizard-it">
+                <img src="./assets/images/join-us.png" class="index_backoffice" alt="Discord and Github">
             </div>
         </div>
         <button style="margin-bottom: 20px;" class="index_buttonAnimColor" onClick="document.getElementById('section1').scrollIntoView();">Install library</button>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
