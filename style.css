@@ -8,7 +8,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, p, ul, a, button {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -28,6 +28,7 @@ h1 {
     font-weight: 100;
     margin-bottom: 30px;
     text-shadow: 0px 0px 80px #DD9D5E;
+    text-align: center;
 }
 
 button {
